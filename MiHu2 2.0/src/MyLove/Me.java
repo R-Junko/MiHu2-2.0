@@ -11,22 +11,22 @@ public class Me extends Fly {
         super(x, y, 120, 79, ImageRead.me);
     }
 
-    public void MoveUp() {
+    public void MoveUp() {//上移
         if (y >= 10)
             y -= speed;
     }
 
-    public void MoveDown() {
+    public void MoveDown() {//下移
         if (y <= 650)
             y += speed;
     }
 
-    public void MoveLeft() {
+    public void MoveLeft() {//左移
         if (x >= 0)
             x -= speed;
     }
 
-    public void MoveRight() {
+    public void MoveRight() {//右移
         if (x <= 420)
             x += speed;
     }
