@@ -1,7 +1,7 @@
 package MyLove;
 
 import java.awt.image.BufferedImage;
-
+//
 public class MyBullet extends Fly {
 
     public MyBullet(int x, int y,int width,int heigth, BufferedImage image) {
